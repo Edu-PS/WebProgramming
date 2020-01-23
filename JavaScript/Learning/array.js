@@ -18,14 +18,19 @@ array01[0] = "Elemento 0 del array 00";
 
 
 // Acceso a los arrays.
+console.log("Acceso a los arrarys.");
 console.log(arraysGlobal[0][0]);
 console.log(array0[0]);
 console.log(arraysGlobal[0][1][0]);
+console.log("");
 
-
-// Métodos.
+// Métodos
+console.log("Métodos de los Arrays");
 console.log("LONGITUD .length: " + array2.length);
 console.log("Contenido Array2 : " + array2);
+console.log("");
+
+
 console.log("ELIMINAR el PRIMER elemento .shift(): " + array2.shift()); // Devuelve el elemento.
 console.log("Contenido Array2 : " + array2);
 console.log("ELIMINAR el ULTIMO elemento .pop(): " + array2.pop()); // Devuelve el elemento.
@@ -34,6 +39,7 @@ console.log("AÑADIR elementos al INICIO .unshift(-5, -4): " + array2.unshift(-5
 console.log("Contenido Array2: " + array2);
 console.log("SELECCIONAR parte del array .slice(2,5): " + array2.slice(2,5));
 console.log("Contenido Array2: " + array2);
+console.log("");
 
 console.log("BUSCAR dentro de un array .indexOf(2): " + array2.indexOf(2));//
 console.log("BUSCAR dentro de un array .indexOf(2,5): " + array2.indexOf(2,5));//
@@ -41,6 +47,7 @@ console.log("BUSCAR dentro de un array .lastIndexOf(2,5): " + array2.lastIndexOf
 console.log("BUSCAR dentro de un array .lastIndexOf(2): " + array2.lastIndexOf(2));//
 console.log("BUSCAR dentro de un array .lastIndexOf(2, -1): " + array2.lastIndexOf(2, -1));//
 console.log("Contenido Array2: " + array2);
+console.log("");
 
 console.log("Uso del método .splice()");
 console.log("ELIMINAR elementos array2.splice(2,2): " + array2.splice(2,2)); // Devuelve los elementos.
